@@ -11,7 +11,7 @@ def welcome_assignment_answers(question):
         case "Is it possible to decrypt a message without a key? - Yes/No":
             answer = "No"
         case "Is it possible to decode a message without a key? - Yes/No":
-            answer = "No"
+            answer = "Yes"
         case "Is a hashed message supposed to be un-hashed? - Yes/No":
             answer = "No"
         case "What is the SHA256 hashing value of your NYU email and use the answer in your code - ":
@@ -19,9 +19,9 @@ def welcome_assignment_answers(question):
         case "Is MD5 a secured hashing algorithm? - Yes/No":
             answer = "No"
         case "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
-            answer = "7"
+            answer = "4"
         case "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
-            answer = "3"
+            answer = "2"
         case _:
             # Catch unrecognized questions, including typos.
             answer = "This is not my beautiful wife! This is not my beautiful car! How did I get here?"
